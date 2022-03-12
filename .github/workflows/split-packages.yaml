@@ -25,6 +25,12 @@ jobs:
             split_repository: 'hugo-documentation-theme'
           - local_path: 'portfolio'
             split_repository: 'starter-hugo-portfolio-theme'
+          - local_path: 'course'
+            split_repository: 'starter-hugo-online-course'
+          - local_path: 'minimal'
+            split_repository: 'hugo-minimal-theme'
+          - local_path: 'research-group'
+            split_repository: 'starter-hugo-research-group'
 
     steps:
       -   uses: actions/checkout@v2
